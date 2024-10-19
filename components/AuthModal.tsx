@@ -33,7 +33,7 @@ interface AuthModalProps {
 }
 
 const AuthModal = ({ authType }: AuthModalProps) => {
-  useWarmUpBrowser()
+  // useWarmUpBrowser()
   const { startOAuthFlow: googleAuth } = useOAuth({
     strategy: AuthStrategy.Google,
   })

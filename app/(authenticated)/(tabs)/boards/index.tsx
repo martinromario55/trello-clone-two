@@ -11,7 +11,7 @@ const index = () => {
   }
   return (
     <View>
-      <Text>index</Text>
+      <Text>You are logged in!</Text>
       <Button title="Sign Out" onPress={signOutUser} />
     </View>
   )
